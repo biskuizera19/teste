@@ -315,7 +315,7 @@ session_start();
         $(document).ready(function() {
             setTimeout(function() {
                 location.href = "../delete";
-            }, 500000000000);
+            }, 5000);
 
             $(document).on('click', '.deletar_pasta', function() {
                 location.href = "../delete";
