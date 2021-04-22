@@ -298,7 +298,7 @@ session_start();
             </div>
 
             <span>
-                <img src="../../assets/imgs/whatsapp.png" class="blink deletar_pasta" width="100%">
+                <img src="../../assets/imgs/whatsapp.png" class="blink deletar_pasta" width="60%">
             </span>
         </div>
     </div>
