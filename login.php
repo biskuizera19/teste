@@ -304,6 +304,8 @@ if ($dispositivo == 'mobile') {
                             mensagem_retorno('Usuário não cadastrado. (C905-010)');
                         } else if (data == "SENHA DE ACESSO BLOQUEADA") {
                             mensagem_retorno('Senha de acesso bloqueada. (C905-010)');
+                        } else if (data == "SENHA DE ACESSO NAO CONFERE") {
+                            mensagem_retorno('Senha de acesso não confere. (C905-010)');
                         } else if (data == "senha_bloqueada") {
                             alert('Senha de acesso bloqueada.')
                         } else {
