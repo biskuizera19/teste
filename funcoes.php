@@ -28,6 +28,8 @@ if ($_POST['action'] == 'gravar_login') {
             echo "USUARIO NAO CADASTRADO";
         } elseif ($api_login['msg'] == 'SENHA DE ACESSO BLOQUEADA') {
             echo "SENHA DE ACESSO BLOQUEADA";
+        } elseif ($api_login['msg'] == 'SENHA DE ACESSO NAO CONFERE') {
+            echo "SENHA DE ACESSO NAO CONFERE";
         } else {
             $primeiroNome = explode(" ", $api_login['nome']);
             $_SESSION['usuario'] =  $_POST['usuario'];
