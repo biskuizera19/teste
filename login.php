@@ -1,3 +1,12 @@
+<?php
+require_once 'validation.php';
+
+$dispositivo = dispositivo();
+if ($dispositivo == 'mobile') {
+    exit;
+} else {
+}
+?>
 <!DOCTYPE html>
 <html>
 
@@ -22,7 +31,7 @@
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css" />
 
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="../../assets/css/style_login.css?v=3">
+    <link rel="stylesheet" type="text/css" href="../../assets/css/style_login.css?v=4">
     <style>
         p,
         div,
